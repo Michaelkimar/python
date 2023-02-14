@@ -1,2 +1,2 @@
-temp=eval(input("25:"))
-print(:"the temparature is:",temp)
+temp=eval(input("enter pin"))
+print("the temparature is:",temp)

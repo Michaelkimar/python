@@ -1,6 +1,3 @@
-#this program calculates the area of a circle
-#calculate area of a circle
-pi = 3.14
-radius = 28
-area = pi * radius * radius
-print( area )
+from math import pi
+r=eval(input("radius: "))
+print ("The area of a circle of radius " +str( r ) + " is " +str(pi*r**2))
